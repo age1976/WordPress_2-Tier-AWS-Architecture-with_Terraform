@@ -1,6 +1,5 @@
-# Deploy WordPress on a 2-Tier AWS Architecture with Terraform&nbsp;[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnumerica-ideas%2Fcommunity%2Ftree%2Fmaster%2Fterraform%2Fdeploy-wordpress-2tier-aws-architecture-with-terraform&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://blog.numericaideas.com/deploy-wordpress-2-tier-aws-architecture-with-terraform)
+# Deploy WordPress on a 2-Tier AWS Architecture with Terraform&nbsp;
 
-**This article was originally written by "Kemane Donfack" on the blog**: https://blog.numericaideas.com/deploy-wordpress-2-tier-aws-architecture-with-terraform
 
 ## Introduction
 
@@ -48,10 +47,10 @@ The overall architecture looks like the following image in which the **AWS Cloud
 Before starting the deployment process, make sure you have the following prerequisites in place:
 
 - Basic knowledge of [Terraform](https://youtu.be/tJ6L1332WU4) & AWS
-- Installed AWS CLI, as documented [here](https://blog.numericaideas.com/configure-aws-cli)
+- Installed AWS CLI
 - Installed Terraform CLI
 
-Now, let’s start configuring our project
+Now, let’s start configuring
 
 ### Step 1: Provider Configuration
 
@@ -663,13 +662,3 @@ The **WordPress** installation is available via the generated Load Balancer doma
 ![wordpress](./images/wordpress.png)
 
 **Important**: Let's note that we can link it to a custom domain along with an HTTP certificate by using AWS ACM service.
-
-**Congratulations! You have successfully deployed your WordPress application on a 2-tier AWS architecture using Terraform**. You can now access your WordPress website and start customizing it to suit your needs.
-
-The complete source code of the project is available on [GitHub]().
-
-## Conclusion
-
-To conclude, deploying WordPress on a 2-Tier AWS architecture with Terraform offers a reliable and scalable solution for hosting your website. This approach allows any team, regardless of their level of Cloud experience, to successfully set up and manage their WordPress application. By leveraging Terraform's infrastructure-as-code capabilities, the deployment process becomes streamlined and repeatable.
-
-However, it is important to emphasize the significance of conducting thorough research and due diligence when selecting the appropriate AWS services and configurations for your specific requirements. Ensuring high availability, fault tolerance, and security should be prioritized during the deployment process.
