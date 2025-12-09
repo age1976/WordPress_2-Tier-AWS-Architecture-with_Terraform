@@ -1,9 +1,9 @@
-# Deploy WordPress on a 2-Tier AWS Architecture with Terraform&nbsp;
+# Deploy WordPress on a AWS Architecture with Terraform&nbsp;
 
 
 ## Introduction
 
-Deploying WordPress on a **two-tier AWS architecture with Terraform** offers a robust and scalable solution to host your website. **Amazon Web Services (AWS)** provides various services for creating a resilient infrastructure, and Terraform automates the deployment process.
+Deploying WordPress on a **AWS architecture with Terraform** offers a robust and scalable solution to host your website. **Amazon Web Services (AWS)** provides various services for creating a resilient infrastructure, and Terraform automates the deployment process.
 
 By following this guide, you'll establish a reliable infrastructure that optimizes performance and allows for future growth.
 
